@@ -1,7 +1,6 @@
-/** @param {string} name */
-function getCapitalized(name) {
-    // return a capitalized version of name (example: "alEX" becomes "Alex")
-        return name[0].toUpperCase()
-
+function capitalize(word){
+    return word[0].toUpperCase() + word.substring(1).toLowerCase();
 }
-getCapitalized("alex")
+//sample usage
+console.log(capitalize("john")); //John
+
