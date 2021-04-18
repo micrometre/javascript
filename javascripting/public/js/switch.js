@@ -1,4 +1,3 @@
-    let expr = 'Papayas';
     switch (name) {
         case "Caleb":
             console.log("welcome");
