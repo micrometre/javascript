@@ -1,14 +1,25 @@
-    switch (name) {
-        case "Caleb":
-            console.log("welcome");
-            break;
-        case "Claire":
-            console.log("Get out here");
-            break;
-        default: 
-            console.log("I guess your're welcome'");
-            break;
+function switchOfStuff(val) {
+    var answer = "";
+    // Only change code below this line
+    switch (val) {
+    case "a":
+        answer = "apple";
+        break;
+
+    case "b":
+        answer = "bird";
+        break;
+    case "c":
+        answer = "cat";
+        break;
+    case "d":
+    default:
+        answer = "stuff";
 
     }
 
+    // Only change code above this line
+    return answer;
+}
 
+switchOfStuff(1);

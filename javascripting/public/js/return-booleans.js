@@ -1,8 +1,8 @@
 //Returning boolean
-function isPassing(grade){
-    if (grade >= 10){
+function isPassing(grade) {
+    if (grade >= 10) {
         return true;
-    }else{
+    } else {
         return false;
     }
 }
@@ -12,7 +12,7 @@ console.log(isPassing(12));
 
 // refactor example 
 
-function isPassing2(grade){
+function isPassing2(grade) {
     return grade >= 10;
 }
 isPassing2(12);
