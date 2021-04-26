@@ -9,12 +9,7 @@ function copyMachine(arr, num) {
   }
   return newArr;
 } 
-
 console.log(copyMachine([true, false, true], 2));
-
-
-
-
 //Copy Array Items Using slice()
 
 function forecast(arr) {
