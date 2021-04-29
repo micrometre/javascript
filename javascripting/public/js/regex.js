@@ -1,5 +1,4 @@
 //Exercises: Level 3
-
 let income = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 let salary = income.slice(9, 13) 
 let bonus = income.slice(42, 47) 
@@ -8,18 +7,8 @@ let moneyIn = []
 salary = parseInt(salary) * 12
 bonus = parseInt(bonus)
 courses = parseInt(courses)
-moneyIn.push(salary, bonus, courses)
-
-var euros = [29.76, 41.85, 46.5]; 
-
-var sum = euros.reduce( function(total, amount){
-  return total + amount
-});
-
-sum // 118.11
-
-
-console.log(sum)
+moneyIn.push(salary + bonus + courses)
+console.log(moneyIn)
 
 
 /*regex 001
